@@ -534,6 +534,7 @@ class iConv2d(nn.Module):
         self.conv_channels = conv_channels
         if isinstance(kernel_size, int):
             kernel_size = (kernel_size, kernel_size)
+        assert kernel_size[0] % 2 == kernel_size[1] % 2 == 1
         self.kernel_size = kernel_size
         self.x_mode = x_mode
         self.w_mode = w_mode

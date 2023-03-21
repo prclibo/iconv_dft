@@ -3,7 +3,7 @@ from conv import iConv2d
 
 def test_iconv2d():
     # torch.set_printoptions(precision=1, sci_mode=False, linewidth=250)
-    B, C, H, W = 1, 1, 4, 6
+    B, C, H, W = 1, 5, 4, 6
 
     x = torch.randn(B, C, H, W)
 
