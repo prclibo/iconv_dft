@@ -2,14 +2,14 @@
 
 This repo implements an invertible convolution operator in PyTorch. Please refer to the corresponding [report](https://arxiv.org/abs/2303.17361) for the derviation of the invertible convolution using DFT.
 
-'''
+```
 @article{li2023invertible,
   title={Invertible Convolution with Symmetric Paddings},
   author={Li, Bo},
   journal={arXiv preprint arXiv:2303.17361},
   year={2023}
 }
-'''
+```
 
 Basically it allows to invert an output feature map to its input in a following simple manner:
 
